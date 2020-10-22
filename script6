@@ -1,0 +1,21 @@
+#!/usr/bin/env python3
+#Questão 11
+
+SetA = (3, 14, 15, 9, 26, 5, 35, 9)
+SetB = (60, 22, 14, 0, 9)
+
+Seta = set(SetA)
+Setb = set(SetB)
+
+print(Seta)
+print(Setb)
+
+print(type(Seta))
+print(type(Setb))
+
+
+print('Difference is:', Seta - Setb)
+print('Union is:', Seta | Setb)
+print('Intersection is:', Seta & Setb)
+print('Symmetric Difference is:', Seta ^ Setb)
+

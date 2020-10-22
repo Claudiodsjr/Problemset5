@@ -1,0 +1,18 @@
+#!/usr/bin/env python3
+import sys
+#Questão 8
+
+a = sys.argv[1]
+b = sys.argv[2]
+
+favthings = {'Book' : 'Senhor dos Anéis', 'Song' : 'Angra - Late Redemption', 'Tree' : 'Syrup Tree', 'Organismo' : 'Fungo'}
+
+if a in favthings:
+	favthings[a] = b
+	print(favthings)
+	print(favthings[a])
+else:
+	print('A key enserida ({}), não faz parte do dicionário'.format(a))
+	print('As keys qye fazem parte do dicionário são:')
+	for key in favthings:
+		print(key)

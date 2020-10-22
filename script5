@@ -1,0 +1,5 @@
+#!/usr/bin/env python3
+#Questão 10
+
+mySet = set('ATGTGGG')
+mySet2 = {'ATGCCT')

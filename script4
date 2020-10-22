@@ -1,0 +1,8 @@
+#!/usr/bin/env python3
+#Questão 9
+
+favthings = {'Book' : 'Senhor dos Anéis', 'Song' : 'Angra - Late Redemption', 'Tree' : 'Syrup Tree', 'Organismo' : 'Fungo'}
+
+for thing in favthings:
+	seq = favthings[thing]
+	print(thing, seq[0:50])

@@ -1,0 +1,24 @@
+#!/usr/bin/env
+#Questões 1 a 5 e 7.
+favthings = {
+		'Book' : 'Senhor dos Anéis',
+		'Song' : 'Angra - Late Redemption',
+		'Tree' : 'Syrup Tree'}
+
+print(favthings['Book'])
+
+fav_book = 'Book'
+print(favthings[fav_book])
+
+print(favthings['Tree'])
+
+favthings['Organismo'] = 'Fungo'
+
+print(favthings['Organismo'])
+
+print(favthings)
+
+favthings['Organismo'] = 'Vírus'
+
+print(favthings)
+print(favthings['Organismo'])
